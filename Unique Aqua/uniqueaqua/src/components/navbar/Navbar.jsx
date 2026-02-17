@@ -1,28 +1,22 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import  {logo}  from '../assets'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { logo } from "../../assets";
 function Navbar() {
   return (
-
-    <div className='bg-white p-8  fixed w-full z-40 top-0 gap-10'>
-     <div className='h-0 w-24' >
+    <div className="bg-white p-8  fixed w-full z-40 top-0 gap-10">
+      <div className="h-5 w-55">
         <img src={logo} alt="Logo" />
-
-        </div>
-    <div className='flex gap-10 justify-end mr-2'>
-       
-
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/contact'>Contact</NavLink>
-        <NavLink to='/company'>Company</NavLink>
-        <NavLink to='/product'>Product</NavLink>
-        <NavLink to='/client'>Client</NavLink>
-        <NavLink to='/newsandevent'>News And Event</NavLink>
+      </div>
+      <div className="flex gap-10 justify-end mr-2">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/company">Company</NavLink>
+        <NavLink to="/products">Product</NavLink>
+        <NavLink to="/client">Client</NavLink>
+        <NavLink to="/newsandevent">News And Event</NavLink>
+      </div>
     </div>
-    </div>
-    
-  )
-  
+  );
 }
 
-export default Navbar
+export default Navbar;

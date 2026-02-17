@@ -1,12 +1,10 @@
-import React from 'react'
-import { logo } from '../../assets'
+import React from "react";
 function Home() {
   return (
-    <div className='bg-white' >
-     <style><img src="logo" alt="Logo"/></style>
-
+    <div className="bg-white">
+      <h1>Home</h1>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

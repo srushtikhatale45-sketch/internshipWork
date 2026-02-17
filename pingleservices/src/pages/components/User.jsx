@@ -5,6 +5,11 @@ function User({ id, firstName, hobbies }) {
   const [count, setCount] = useState(1);
   const increaseCount = () => {
     setCount((prev) => {
+      return prev + 1;
+    });
+  };
+  const deleteCount = () => {
+    setCount((prev) => {
       return prev - 1;
     });
   };
@@ -24,12 +29,13 @@ function User({ id, firstName, hobbies }) {
           >
             Add
           </button>
-          <button className="border bg-white text-black rounded-2xl m-2 p-2">
+          <button
+            className="border bg-white text-black rounded-2xl m-2 p-2"
+            onClick={deleteCount}
+          >
             Sub
           </button>
         </div>
-
-        {/* <div>{user.xyz}</div> */}
       </div>
     </div>
   );
