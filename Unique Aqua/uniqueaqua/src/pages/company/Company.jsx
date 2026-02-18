@@ -1,62 +1,48 @@
+// company.jsx
 import React from "react";
 
-function Company() {
+const Company = () => {
   return (
-    <div className="company-page">
-      {/* About Us Section */}
-      <section className="about-section mt-30 px-4 md:px-8 lg:px-16">
-        <h1 className="about-title text-blue-600 text-4xl font-bold mt-20 mb-8 border-b-2 border-blue-200 pb-4">
-          About Us
+    <div className="container mt-20 pt-20 ">
+      <p className="text-gray-700 text-lg leading-relaxed">
+        <h1 className="text-3xl md:text-4xl flex justify-center lg:text-4xl font-bold text-sky-500 shadow-2xl mb-2">
+          ABOUT UNIQUE AQUA SYSTEMS
         </h1>
-
-        <div className="about-content max-w-6xl mx-auto">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <span className="font-semibold">
-              Unique Aqua Systems and Chemical Industries
-            </span>
-            , as the name suggests, is a premier water treatment company that
-            has been providing professional and value-added consultancy and
-            technical services to customers across the Asian region since 2002.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            With extensive experience in water treatment, Unique Aqua Systems
-            and Chemical Industries combines innovative technologies with
-            exceptional services delivered by our highly skilled
-            representatives. Through intensive research and development, coupled
-            with our own production facilities, we offer an extensive range of
-            products as well as tailor-made solutions to address every specific
-            application. Our goal is to help you optimize the efficiency of your
-            water processes, achieving maximum economy and long-term operational
-            reliability. Our diversified experience in handling the needs of
-            various industries and institutions has enabled us to standardize
-            our products according to required specifications. As an
-            ISO-certified company, we strictly adhere to quality procedures in
-            every aspect of our operations.The dream of a comprehensive water
-            treatment solution provider has become a reality at Unique Aqua
-            Systems and Chemical Industries. You will find every product you
-            need for your water treatment requirements within our organization.
-            The products we manufacture and trade are of the highest quality,
-            incorporating the latest technological advancements and research.
-          </p>
-
-          <h2 className="quality-policy-title text-blue-600 text-2xl font-semibold mt-10 mb-4">
-            Quality Policy
-          </h2>
-          <p>
-            Unique Aqua Systems and Chemical Industries is committed to
-            providing all customers with products and services related to
-            specialty chemicals and equipment that comply with agreed
-            requirements.In compliance with customer requirements as well as
-            product and service regulatory requirements, we foster quality
-            awareness among all employees and provide comprehensive skills and
-            knowledge training in quality aspects relating to our systems,
-            products, and services.
-          </p>
-        </div>
-      </section>
+        Unique Aqua systems and Chemical Industries, as the name suggest is a
+        water treatment company. Who has been providing professional and value
+        added consultancy and technical service to customers in Asian region
+        since year 2002. With the long experience in the water treatment, Unique
+        Aqua systems and Chemical Industries combines innovative technologies
+        and services provided by our high skilled representatives. Thanks to an
+        intensive research and development and our own production facilities, we
+        can offer and extensive range of products as well as tailor made
+        solutions to cover every specific application and help you optimize the
+        efficiency of your water processes achieving the greatest economy and
+        long term operation reliability. The diversified experience to handle
+        needs of different types of industries and institutions made our company
+        to standardize our products according to the required specifications. As
+        an ISO company we obey the quality procedures. The dream of a water
+        treatment house is made true in Unique Aqua systems and Chemical
+        Industries as you will find every product to your water treatment needs
+        in our organization. The Products we manufacture here and trade are of
+        high quality as well incorporated the latest technological researches.
+        Quality Policy Unique Aqua systems and Chemical Industries is committed
+        to provide all customers with products and services related to
+        speciality chemicals & equipments that comply with agreed requirements.
+        Compliance, with customer requirements as well as products and. services
+        regulatory requirements, we will generate quality awareness amongst all
+        employees and provide skills and knowledge training in quality aspects
+        relating to our system, products and services. Wewill consistently
+        achieve this through teamwork, continuous Improvement and adherence to
+        our quality assurance system. Our Mission To be a major provider of
+        sustainable water-related solutions and technical services in the Asian
+        Region, through long term partnerships with our Technical Service
+        Providers that benefit customers, employees, communities, and the
+        environment. We strive to provide effective Total Water Management
+        Program through.
+      </p>
     </div>
   );
-}
+};
 
 export default Company;

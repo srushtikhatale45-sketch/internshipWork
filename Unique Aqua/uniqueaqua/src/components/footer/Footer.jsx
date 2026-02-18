@@ -7,6 +7,7 @@ function Footer() {
     /* Changed gradient from green to sky/blue */
     <footer className="bg-gradient-to-r from-sky-600 to-blue-300 text-white">
       {/* Main Footer Content */}
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
